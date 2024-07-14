@@ -1,0 +1,114 @@
+.help-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 70vw; */
+    height: auto;
+    overflow: hidden;
+    padding-bottom: 3rem;
+}
+
+.help-content {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    max-width: 90vw;
+    background-color: #f1f2f4;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.h-section1 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-width: 450px;
+    background: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.7));
+    padding: 75px;
+    box-shadow: 200px 0px 90px rgba(0, 0, 0, 0.5);
+    /* box-shadow: -30px 0px 40px 0px #e4e4e6 inset; */
+    z-index: 1;
+    /* position: absolute; */
+}
+
+.h-section1 h2 {
+    color: white;
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 4vh;
+}
+
+.h-section1 p {
+    color: white;
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+div .help-button {
+    align-self: flex-start;
+    height: 60px;
+    width: 250px;
+    margin-top: 4vh;
+    font-size: 20px;
+}
+
+.h-section2 {
+    flex: 1;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.h-parallax {
+    height: 100%;
+    ;
+}
+
+@media (max-width: 800px) {
+    .help-content {
+        flex-direction: column;
+    }
+
+    .h-section1 {
+        order: 1;
+        box-shadow: 0px 180px 60px rgba(0, 0, 0, 0.32);
+        padding: 20px;
+    }
+
+    .h-section2 {
+        order: 2;
+        height: 300px;
+    }
+
+    .h-parallax {
+        height: 300px;
+    }
+
+
+    .h-section1 h2 {
+        font-size: 20px;
+        font-weight: 600;
+        margin-bottom: 20px;
+    }
+
+    .h-section1 p {
+        color: white;
+        margin-bottom: 20px;
+        font-size: 12px;
+        line-height: 1.5;
+        max-width: 70vw;
+        height: auto;
+    }
+
+    div .help-button {
+        align-self: flex-start;
+        height: 40px;
+        width: 150px;
+        margin-top: 0;
+        font-size: 12px;
+    }
+
+}

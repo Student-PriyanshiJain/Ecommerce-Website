@@ -1,0 +1,16 @@
+.reg-checkbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div .register-button{
+    background-color: #7066e0;
+    color: white;
+}
+
+
+div .register-button:hover{
+    background-color: #5c53b9;
+    color: white;
+}

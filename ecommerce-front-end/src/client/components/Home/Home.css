@@ -1,0 +1,31 @@
+.home {
+    background-color: #f1f2f4;
+    position: relative;
+}
+
+.home-carousel {
+    padding-top: 2rem;
+    padding: 20px 5px;
+}
+
+.home-parallax {
+    position: relative;
+    z-index: 1;
+}
+
+.home-category{
+    /* box-shadow: -30px 0px 40px 0px #e4e4e6 inset; */
+    background: linear-gradient(to top, #f1f2f4, rgba(25, 0, 255, 0));
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    /* margin-bottom: ; */
+}
+
+.home-collections,
+.home-services,
+.home-help {
+    padding: 20px;
+    position: relative;
+    z-index: 2; 
+}
